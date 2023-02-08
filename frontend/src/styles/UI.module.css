@@ -1,0 +1,71 @@
+.loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px dashed black;
+    animation: rotate 3s linear infinite;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.input:hover, .textarea:hover, .dateInput:hover {
+    outline: 1px solid black;
+}
+
+.textarea {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200px;
+    resize: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.button {
+    padding: 5px 10px;
+    color: white;
+    background-color:black ;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: fit-content;
+    height: 30px;
+}
+
+.button:hover {
+    background-color: black;
+    color:rgb(176, 246, 255);
+}
+
+.button:active {
+    background-color: black;
+    color: red;
+}
+
+.dateInput {
+    padding: 5px;
+    height: 30px;
+    margin: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}

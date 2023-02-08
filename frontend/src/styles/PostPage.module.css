@@ -1,0 +1,15 @@
+.container {
+    box-shadow: 0 0 5px gray;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px 0;
+    width: 100%;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.body {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,31 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:  antiquewhite;
+    width: 300px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+.link:hover {
+    transform: scale(1.05);
+    color: rgb(32, 32, 32);
+}
+
+.date {
+    color: gray;
+}

@@ -1,0 +1,31 @@
+.container {
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.photo {
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    padding: 7px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.photo svg {
+    width: 100%;
+}
+
+.text {
+    margin-top: 20px;
+}

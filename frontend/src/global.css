@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+    overflow-y: overlay;
+}
+
+#root {
+    height: 100%;
+}
+
+.active {
+    color: aqua;
+    transform: scale(1.1);
+}
