@@ -2,7 +2,7 @@ import styles from "../styles/About.module.css"
 
 export const About = () => {
   return (
-  <div>
+  <div className={styles.container}>
     <h1 className={styles.title}>О приложении</h1>
     <p>Данное приложение создано в качестве тестового задания.</p>
     <p>Приложение реализовано при помощи <b>React, Typescript, Redux Toolkit, RTK Query</b>. В качестве стилизации были выбраны обычные css модули</p>

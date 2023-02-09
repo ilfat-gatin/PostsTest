@@ -61,7 +61,8 @@ export const Posts = () => {
   return (
     <>
       <h1 className={styles.title}>Статьи</h1> 
-      <hr /> 
+      <hr />
+      {isError && <h2 style={{color: "red"}}>Ошибка загрузки</h2>} 
       <> {isLoading ? <Loader /> : 
         <>
           <div className={styles.filtersWrapper}>
